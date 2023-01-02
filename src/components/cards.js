@@ -1,12 +1,16 @@
 import React from 'react';
-import { useState , useEffect } from "react";
+import { useState  } from "react";
+import '../Styles/App.css';
+
+
 
 const Cards = () => {
   const [cards, setCards] = useState([]);
 
+
   return (
     <div>
-      <h1>Card game</h1>
+      <h2>Memory Card Game</h2>
     </div>
   )
 }
